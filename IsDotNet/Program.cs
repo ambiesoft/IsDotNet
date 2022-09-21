@@ -28,6 +28,10 @@ namespace IsDotNet
             sbMessage.AppendLine();
             sbMessage.AppendFormat("IsNet462OrNewer = {0}", AmbLib.IsNet462OrNewer());
             sbMessage.AppendLine();
+            sbMessage.AppendFormat("IsNet47OrNewer = {0}", AmbLib.IsNet47OrNewer());
+            sbMessage.AppendLine();
+            sbMessage.AppendFormat("IsNet48OrNewer = {0}", AmbLib.IsNet48OrNewer());
+            sbMessage.AppendLine();
 
             MessageBox.Show(sbMessage.ToString(),
                 Application.ProductName,
